@@ -1,7 +1,2 @@
 def prime(num)
-  if num.prime?(2)
-    return true
-  else
-    false
-  end
-end
+  num.each.prime? {|num| !!"true"}
